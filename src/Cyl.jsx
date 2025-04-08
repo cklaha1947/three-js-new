@@ -4,7 +4,7 @@ import React, { useRef } from 'react'
 import * as THREE from "three";
 
 const Cyl = () => {
-    let tex = useTexture("./img6.png");
+    let tex = useTexture("./img6.png"); 
     let cyl =useRef(null);
     useFrame((state,delta) => {
         cyl.current.rotation.y += delta;
